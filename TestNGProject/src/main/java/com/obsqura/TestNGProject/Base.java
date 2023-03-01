@@ -11,9 +11,11 @@ public class Base {
 	@BeforeMethod
 	public void initializeBrowser()
 	{
-		System.setProperty("webdriver.chrome.driver","C:\\Users\\renju\\eclipse-workspace-obsqura\\TestNGProject\\src\\main\\java\\Resources\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\renju\\git\\TestNGProject\\TestNGProject\\src\\main\\java\\Resources\\chromedriver.exe");
         driver =new ChromeDriver();
-        driver.get("https://www.amazon.com/");
+        driver.get("https://selenium.obsqurazone.com/simple-form-demo.php");
+       // driver.get("https://www.amazon.com/");
+        
 	}
 	
 	@AfterMethod

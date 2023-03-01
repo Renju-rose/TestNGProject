@@ -1,109 +1,145 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-02-22T17:14:30 IST" name="Default suite" finished-at="2023-02-22T17:16:09 IST" duration-ms="98826">
+  <suite started-at="2023-03-01T15:18:28 IST" name="Default suite" finished-at="2023-03-01T15:19:02 IST" duration-ms="33872">
     <groups>
     </groups>
-    <test started-at="2023-02-22T17:14:30 IST" name="Default test" finished-at="2023-02-22T17:16:09 IST" duration-ms="98826">
-      <class name="com.obsqura.TestNGProject.Locators">
-        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:com.obsqura.TestNGProject.Locators@71238fc2]" started-at="2023-02-22T17:14:31 IST" name="initializeBrowser" finished-at="2023-02-22T17:14:41 IST" duration-ms="10117" status="PASS">
+    <test started-at="2023-03-01T15:18:28 IST" name="Default test" finished-at="2023-03-01T15:19:02 IST" duration-ms="33872">
+      <class name="com.obsqura.TestNGProject.DemoLocators">
+        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:com.obsqura.TestNGProject.DemoLocators@3d6f0054]" started-at="2023-03-01T15:18:28 IST" name="initializeBrowser" finished-at="2023-03-01T15:18:32 IST" duration-ms="3825" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeBrowser -->
-        <test-method signature="locatorByClass()[pri:0, instance:com.obsqura.TestNGProject.Locators@71238fc2]" started-at="2023-02-22T17:14:41 IST" name="locatorByClass" finished-at="2023-02-22T17:14:41 IST" duration-ms="171" status="PASS">
+        <test-method signature="menuTab()[pri:0, instance:com.obsqura.TestNGProject.DemoLocators@3d6f0054]" started-at="2023-03-01T15:18:32 IST" name="menuTab" finished-at="2023-03-01T15:18:32 IST" duration-ms="249" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- locatorByClass -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.obsqura.TestNGProject.Locators@71238fc2]" started-at="2023-02-22T17:14:41 IST" name="afterTest" finished-at="2023-02-22T17:14:41 IST" duration-ms="432" status="PASS">
+        </test-method> <!-- menuTab -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.obsqura.TestNGProject.DemoLocators@3d6f0054]" started-at="2023-03-01T15:18:32 IST" name="afterTest" finished-at="2023-03-01T15:18:33 IST" duration-ms="267" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:com.obsqura.TestNGProject.Locators@71238fc2]" started-at="2023-02-22T17:14:41 IST" name="initializeBrowser" finished-at="2023-02-22T17:14:49 IST" duration-ms="8010" status="PASS">
+        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:com.obsqura.TestNGProject.DemoLocators@3d6f0054]" started-at="2023-03-01T15:18:33 IST" name="initializeBrowser" finished-at="2023-03-01T15:18:35 IST" duration-ms="2597" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeBrowser -->
-        <test-method signature="locatorByCssSelector()[pri:0, instance:com.obsqura.TestNGProject.Locators@71238fc2]" started-at="2023-02-22T17:14:49 IST" name="locatorByCssSelector" finished-at="2023-02-22T17:14:49 IST" duration-ms="225" status="PASS">
+        <test-method signature="singleInputField()[pri:0, instance:com.obsqura.TestNGProject.DemoLocators@3d6f0054]" started-at="2023-03-01T15:18:35 IST" name="singleInputField" finished-at="2023-03-01T15:18:36 IST" duration-ms="323" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- locatorByCssSelector -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.obsqura.TestNGProject.Locators@71238fc2]" started-at="2023-02-22T17:14:49 IST" name="afterTest" finished-at="2023-02-22T17:14:50 IST" duration-ms="357" status="PASS">
+        </test-method> <!-- singleInputField -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.obsqura.TestNGProject.DemoLocators@3d6f0054]" started-at="2023-03-01T15:18:36 IST" name="afterTest" finished-at="2023-03-01T15:18:36 IST" duration-ms="253" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:com.obsqura.TestNGProject.Locators@71238fc2]" started-at="2023-02-22T17:14:50 IST" name="initializeBrowser" finished-at="2023-02-22T17:14:57 IST" duration-ms="7567" status="PASS">
+        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:com.obsqura.TestNGProject.DemoLocators@3d6f0054]" started-at="2023-03-01T15:18:36 IST" name="initializeBrowser" finished-at="2023-03-01T15:18:38 IST" duration-ms="2508" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeBrowser -->
-        <test-method signature="locatorById()[pri:0, instance:com.obsqura.TestNGProject.Locators@71238fc2]" started-at="2023-02-22T17:14:57 IST" name="locatorById" finished-at="2023-02-22T17:15:08 IST" duration-ms="10411" status="PASS">
+        <test-method signature="verifyGetTotalButtonAndValueBTextboxAlignment()[pri:0, instance:com.obsqura.TestNGProject.DemoLocators@3d6f0054]" started-at="2023-03-01T15:18:38 IST" name="verifyGetTotalButtonAndValueBTextboxAlignment" finished-at="2023-03-01T15:18:39 IST" duration-ms="64" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- locatorById -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.obsqura.TestNGProject.Locators@71238fc2]" started-at="2023-02-22T17:15:08 IST" name="afterTest" finished-at="2023-02-22T17:15:08 IST" duration-ms="296" status="PASS">
+        </test-method> <!-- verifyGetTotalButtonAndValueBTextboxAlignment -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.obsqura.TestNGProject.DemoLocators@3d6f0054]" started-at="2023-03-01T15:18:39 IST" name="afterTest" finished-at="2023-03-01T15:18:39 IST" duration-ms="243" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:com.obsqura.TestNGProject.Locators@71238fc2]" started-at="2023-02-22T17:15:08 IST" name="initializeBrowser" finished-at="2023-02-22T17:15:20 IST" duration-ms="12015" status="PASS">
+        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:com.obsqura.TestNGProject.DemoLocators@3d6f0054]" started-at="2023-03-01T15:18:39 IST" name="initializeBrowser" finished-at="2023-03-01T15:18:41 IST" duration-ms="2598" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeBrowser -->
-        <test-method signature="locatorByLinkText()[pri:0, instance:com.obsqura.TestNGProject.Locators@71238fc2]" started-at="2023-02-22T17:15:20 IST" name="locatorByLinkText" finished-at="2023-02-22T17:15:21 IST" duration-ms="366" status="PASS">
+        <test-method signature="verifyGetTotalButtonColorAndText()[pri:0, instance:com.obsqura.TestNGProject.DemoLocators@3d6f0054]" started-at="2023-03-01T15:18:41 IST" name="verifyGetTotalButtonColorAndText" finished-at="2023-03-01T15:18:41 IST" duration-ms="54" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- locatorByLinkText -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.obsqura.TestNGProject.Locators@71238fc2]" started-at="2023-02-22T17:15:21 IST" name="afterTest" finished-at="2023-02-22T17:15:21 IST" duration-ms="355" status="PASS">
+        </test-method> <!-- verifyGetTotalButtonColorAndText -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.obsqura.TestNGProject.DemoLocators@3d6f0054]" started-at="2023-03-01T15:18:41 IST" name="afterTest" finished-at="2023-03-01T15:18:42 IST" duration-ms="275" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:com.obsqura.TestNGProject.Locators@71238fc2]" started-at="2023-02-22T17:15:21 IST" name="initializeBrowser" finished-at="2023-02-22T17:15:31 IST" duration-ms="10520" status="PASS">
+        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:com.obsqura.TestNGProject.DemoLocators@3d6f0054]" started-at="2023-03-01T15:18:42 IST" name="initializeBrowser" finished-at="2023-03-01T15:18:44 IST" duration-ms="2560" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeBrowser -->
-        <test-method signature="locatorByName()[pri:0, instance:com.obsqura.TestNGProject.Locators@71238fc2]" started-at="2023-02-22T17:15:31 IST" name="locatorByName" finished-at="2023-02-22T17:15:42 IST" duration-ms="10879" status="PASS">
+        <test-method signature="verifyShowMessageButton()[pri:0, instance:com.obsqura.TestNGProject.DemoLocators@3d6f0054]" started-at="2023-03-01T15:18:44 IST" name="verifyShowMessageButton" finished-at="2023-03-01T15:18:44 IST" duration-ms="40" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- locatorByName -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.obsqura.TestNGProject.Locators@71238fc2]" started-at="2023-02-22T17:15:42 IST" name="afterTest" finished-at="2023-02-22T17:15:43 IST" duration-ms="373" status="PASS">
+        </test-method> <!-- verifyShowMessageButton -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.obsqura.TestNGProject.DemoLocators@3d6f0054]" started-at="2023-03-01T15:18:44 IST" name="afterTest" finished-at="2023-03-01T15:18:45 IST" duration-ms="256" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:com.obsqura.TestNGProject.Locators@71238fc2]" started-at="2023-02-22T17:15:43 IST" name="initializeBrowser" finished-at="2023-02-22T17:15:50 IST" duration-ms="7658" status="PASS">
+        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:com.obsqura.TestNGProject.DemoLocators@3d6f0054]" started-at="2023-03-01T15:18:45 IST" name="initializeBrowser" finished-at="2023-03-01T15:18:47 IST" duration-ms="2626" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeBrowser -->
-        <test-method signature="locatorByPartialLinkText()[pri:0, instance:com.obsqura.TestNGProject.Locators@71238fc2]" started-at="2023-02-22T17:15:50 IST" name="locatorByPartialLinkText" finished-at="2023-02-22T17:15:51 IST" duration-ms="396" status="PASS">
+        <test-method signature="verifyShowMessageButtonLocationAndSize()[pri:0, instance:com.obsqura.TestNGProject.DemoLocators@3d6f0054]" started-at="2023-03-01T15:18:47 IST" name="verifyShowMessageButtonLocationAndSize" finished-at="2023-03-01T15:18:47 IST" duration-ms="42" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- locatorByPartialLinkText -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.obsqura.TestNGProject.Locators@71238fc2]" started-at="2023-02-22T17:15:51 IST" name="afterTest" finished-at="2023-02-22T17:15:51 IST" duration-ms="377" status="PASS">
+        </test-method> <!-- verifyShowMessageButtonLocationAndSize -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.obsqura.TestNGProject.DemoLocators@3d6f0054]" started-at="2023-03-01T15:18:47 IST" name="afterTest" finished-at="2023-03-01T15:18:47 IST" duration-ms="264" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:com.obsqura.TestNGProject.Locators@71238fc2]" started-at="2023-02-22T17:15:51 IST" name="initializeBrowser" finished-at="2023-02-22T17:15:59 IST" duration-ms="8241" status="PASS">
+        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:com.obsqura.TestNGProject.DemoLocators@3d6f0054]" started-at="2023-03-01T15:18:47 IST" name="initializeBrowser" finished-at="2023-03-01T15:18:50 IST" duration-ms="2501" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeBrowser -->
-        <test-method signature="locatorByTagName()[pri:0, instance:com.obsqura.TestNGProject.Locators@71238fc2]" started-at="2023-02-22T17:15:59 IST" name="locatorByTagName" finished-at="2023-02-22T17:16:00 IST" duration-ms="211" status="PASS">
+        <test-method signature="verifyShowMessageButtonShape()[pri:0, instance:com.obsqura.TestNGProject.DemoLocators@3d6f0054]" started-at="2023-03-01T15:18:50 IST" name="verifyShowMessageButtonShape" finished-at="2023-03-01T15:18:50 IST" duration-ms="35" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- locatorByTagName -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.obsqura.TestNGProject.Locators@71238fc2]" started-at="2023-02-22T17:16:00 IST" name="afterTest" finished-at="2023-02-22T17:16:00 IST" duration-ms="391" status="PASS">
+        </test-method> <!-- verifyShowMessageButtonShape -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.obsqura.TestNGProject.DemoLocators@3d6f0054]" started-at="2023-03-01T15:18:50 IST" name="afterTest" finished-at="2023-03-01T15:18:50 IST" duration-ms="293" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:com.obsqura.TestNGProject.Locators@71238fc2]" started-at="2023-02-22T17:16:00 IST" name="initializeBrowser" finished-at="2023-02-22T17:16:09 IST" duration-ms="8704" status="PASS">
+        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:com.obsqura.TestNGProject.DemoLocators@3d6f0054]" started-at="2023-03-01T15:18:50 IST" name="initializeBrowser" finished-at="2023-03-01T15:18:53 IST" duration-ms="2596" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeBrowser -->
-        <test-method signature="locatorByXpath()[pri:0, instance:com.obsqura.TestNGProject.Locators@71238fc2]" started-at="2023-02-22T17:16:09 IST" name="locatorByXpath" finished-at="2023-02-22T17:16:09 IST" duration-ms="263" status="PASS">
+        <test-method signature="verifyShowMessageFontColor()[pri:0, instance:com.obsqura.TestNGProject.DemoLocators@3d6f0054]" started-at="2023-03-01T15:18:53 IST" name="verifyShowMessageFontColor" finished-at="2023-03-01T15:18:53 IST" duration-ms="34" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- locatorByXpath -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.obsqura.TestNGProject.Locators@71238fc2]" started-at="2023-02-22T17:16:09 IST" name="afterTest" finished-at="2023-02-22T17:16:09 IST" duration-ms="418" status="PASS">
+        </test-method> <!-- verifyShowMessageFontColor -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.obsqura.TestNGProject.DemoLocators@3d6f0054]" started-at="2023-03-01T15:18:53 IST" name="afterTest" finished-at="2023-03-01T15:18:53 IST" duration-ms="252" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-      </class> <!-- com.obsqura.TestNGProject.Locators -->
+        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:com.obsqura.TestNGProject.DemoLocators@3d6f0054]" started-at="2023-03-01T15:18:53 IST" name="initializeBrowser" finished-at="2023-03-01T15:18:56 IST" duration-ms="2684" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method signature="verifyShowMessageFontSize()[pri:0, instance:com.obsqura.TestNGProject.DemoLocators@3d6f0054]" started-at="2023-03-01T15:18:56 IST" name="verifyShowMessageFontSize" finished-at="2023-03-01T15:18:56 IST" duration-ms="36" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyShowMessageFontSize -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.obsqura.TestNGProject.DemoLocators@3d6f0054]" started-at="2023-03-01T15:18:56 IST" name="afterTest" finished-at="2023-03-01T15:18:56 IST" duration-ms="244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:com.obsqura.TestNGProject.DemoLocators@3d6f0054]" started-at="2023-03-01T15:18:56 IST" name="initializeBrowser" finished-at="2023-03-01T15:18:59 IST" duration-ms="2534" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method signature="verifySingleInputField()[pri:0, instance:com.obsqura.TestNGProject.DemoLocators@3d6f0054]" started-at="2023-03-01T15:18:59 IST" name="verifySingleInputField" finished-at="2023-03-01T15:18:59 IST" duration-ms="43" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySingleInputField -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.obsqura.TestNGProject.DemoLocators@3d6f0054]" started-at="2023-03-01T15:18:59 IST" name="afterTest" finished-at="2023-03-01T15:18:59 IST" duration-ms="286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:com.obsqura.TestNGProject.DemoLocators@3d6f0054]" started-at="2023-03-01T15:18:59 IST" name="initializeBrowser" finished-at="2023-03-01T15:19:02 IST" duration-ms="2580" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method signature="verifyTwoInputFields()[pri:0, instance:com.obsqura.TestNGProject.DemoLocators@3d6f0054]" started-at="2023-03-01T15:19:02 IST" name="verifyTwoInputFields" finished-at="2023-03-01T15:19:02 IST" duration-ms="381" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTwoInputFields -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.obsqura.TestNGProject.DemoLocators@3d6f0054]" started-at="2023-03-01T15:19:02 IST" name="afterTest" finished-at="2023-03-01T15:19:02 IST" duration-ms="249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.obsqura.TestNGProject.DemoLocators -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
