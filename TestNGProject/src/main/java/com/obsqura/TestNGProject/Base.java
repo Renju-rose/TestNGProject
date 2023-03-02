@@ -15,6 +15,7 @@ public class Base {
         driver =new ChromeDriver();
         driver.get("https://selenium.obsqurazone.com/simple-form-demo.php");
        // driver.get("https://www.amazon.com/");
+        driver.manage().window().maximize();
         
 	}
 	
