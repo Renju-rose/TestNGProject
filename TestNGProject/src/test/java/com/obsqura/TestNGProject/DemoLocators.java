@@ -106,18 +106,22 @@ public class DemoLocators extends Base{
 		assertEquals(expectedGetTotalButtonColor,totalButtonColor,"Get Total Button Colors are not same");
 	}
 	@Test
-	public void verifyGetTotalButtonAndValueBTextboxAlignment()
+	public void verifyAlignmentGetTotalButtonIsAboveValueBTextbox()
 	{
 		WebElement getTotalButton=driver.findElement(By.xpath("//button[@id='button-two']"));
+	    boolean getTotalButtonEnabled=getTotalButton.isEnabled();
+	    assertTrue(getTotalButtonEnabled,"Get Total Button is not enabled");
 		Point getTotalButtonLocation=getTotalButton.getLocation();
 		int getTotalButtonX=getTotalButtonLocation.getX();
 		int getTotalButtonY=getTotalButtonLocation.getY();
 		WebElement valueBTextbox=driver.findElement(By.xpath("//input[@id='value-b']"));
+		boolean valueBTextBoxEnabled=valueBTextbox.isDisplayed();
+		assertTrue(valueBTextBoxEnabled,"Value B Textbox is not displayed");
 		Point valueBTextboxLocation=valueBTextbox.getLocation();
 		int valueBTextBoxX=valueBTextboxLocation.getX();
 		int valueBTextboxY=valueBTextboxLocation.getY();
 		boolean greaterAlignment=(getTotalButtonY>valueBTextboxY);
-		assertTrue(greaterAlignment,"ValueB Textbox Alignment is greater than GetTotal Button");
+		assertTrue(greaterAlignment,"ValueB Textbox Alignment is not above GetTotal Button");
 		
 	}
 	@Test
@@ -129,7 +133,7 @@ public class DemoLocators extends Base{
 		String expectedGetTotalOutput="Total A + B : "+finalValue;
 		WebElement valueATextBox=driver.findElement(By.xpath("//input[@id='value-a']"));
 		boolean isValueATextBoxDisplayed=valueATextBox.isDisplayed();
-		assertTrue(isValueATextBoxDisplayed,"Value A Textbox ffield is not Displayed");
+		assertTrue(isValueATextBoxDisplayed,"Value A Textbox field is not Displayed");
 		driver.findElement(By.xpath("//input[@id='value-a']")).sendKeys(Integer.toString(inputValueA));
 		WebElement valueBTextBox=driver.findElement(By.xpath("//input[@id='value-b']"));
 		boolean isValueBTextBoxDisplayed=valueBTextBox.isDisplayed();

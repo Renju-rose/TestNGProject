@@ -3,10 +3,15 @@ package com.obsqura.TestNGProject;
 import java.util.List;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
-public class FindElements extends Base {
+public class SelectCategory extends Base {
+	public SelectCategory(WebDriver driver) {
+		this.driver=driver;
+	}
+
 	@Test
 	public void listFindElements(String inputCategory)
 	{
