@@ -24,8 +24,12 @@ public class SelectInput extends Base{
 	    WebElement displayedColor=driver.findElement(By.xpath("//div[@id='message-one']"));
 		String actualdisplayedColor=displayedColor.getText();
 		assertEquals(expectedColor,actualdisplayedColor,"Color displayed is not the expected one");
+		selectObject.selectByVisibleText("Red");
+		selectObject.selectByVisibleText("Yellow");
 		selectObject.selectByVisibleText("Green");
 		selectObject.selectByValue("Red");
+		selectObject.selectByValue("Yellow");
+		selectObject.selectByValue("Green");
 		List<WebElement> options=selectObject.getOptions();
 		int count=options.size();
 	}
@@ -40,8 +44,32 @@ public class SelectInput extends Base{
 		boolean isMultipleDropdown=selectObject.isMultiple();
 		selectObject.selectByIndex(1);
 		selectObject.selectByIndex(2);
+		selectObject.selectByVisibleText("Red");
+		selectObject.selectByVisibleText("Yellow");
+		selectObject.selectByVisibleText("Green");
+		selectObject.selectByValue("Red");
+		selectObject.selectByValue("Yellow");
+		selectObject.selectByValue("Green");
 		selectObject.deselectAll();
 		getAllSelectedButton.click();
+	}
+	@Test
+	public void verifySelectInputDemoUsingFindElements()
+	{
+        String selectInput="Red";
+        SelectCategory SelectCategoryObject=new SelectCategory(driver);
+		SelectCategoryObject.listFindElements("Select Input");
+		List<WebElement> selectInputDemoCategories=driver.findElements(By.xpath("//select[@id='single-input-field']//option"));
+		
+		for(WebElement colorCategory:selectInputDemoCategories)
+		{
+			if(colorCategory.getAttribute("value").equals(selectInput))
+			{
+				colorCategory.click();
+				break;
+			}
+			
+		}
 	}
 
 }

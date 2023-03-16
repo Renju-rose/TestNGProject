@@ -103,4 +103,130 @@ public class Locators extends Base{
 		driver.findElement(By.xpath("//a[text()='Your Ads Privacy Choices']"));
 		
 	}
+	@Test
+	public void locatorsByContainsXpath()
+	{
+		driver.findElement(By.xpath("//div[contains(@id,'message-one')]"));
+		driver.findElement(By.xpath("//a[contains(text(),'Simple Form')]"));
+		driver.findElement(By.xpath("//*[contains(@id,'single-input-field')]"));
+		driver.navigate().to("https://selenium.obsqurazone.com/check-box-demo.php");
+	    driver.findElement(By.xpath("//input[contains(@id,'gridCheck')]"));
+		driver.findElement(By.xpath("//input[contains(@type,'button')]"));
+		driver.navigate().to("https://selenium.obsqurazone.com/radio-button-demo.php");
+		driver.findElement(By.xpath("//button[contains(text(),'Show Selected Value')]"));
+	}
+	@Test
+	public void locatorsORXpath()
+	{
+		driver.findElement(By.xpath("//input[@id='value-a' or @id='value-a']"));
+		driver.navigate().to("https://selenium.obsqurazone.com/check-box-demo.php");
+		driver.findElement(By.xpath("//input[@class='form-check-input' or @id='gridCheck']"));
+		driver.findElement(By.xpath("//input[@type='button' or @id='button-two']"));
+		driver.navigate().to("https://selenium.obsqurazone.com/radio-button-demo.php");
+		driver.findElement(By.xpath("//div[@id='message-two' or @class='btn btn-primary']"));
+	}
+	@Test
+	public void locatorsAndXpath()
+	{
+		driver.findElement(By.xpath("//button[@type='button' and @id='button-one']"));
+		driver.findElement(By.xpath("//button[@type='button' and @id='button-two']"));
+		driver.navigate().to("https://selenium.obsqurazone.com/radio-button-demo.php");
+		driver.findElement(By.xpath("//button[@id=\"button-one\" and @type=\"button\"]"));
+		driver.findElement(By.xpath("//input[@id='inlineRadio21' and @class='form-check-input']"));
+		driver.findElement(By.xpath("//input[@id='inlineRadio22' and @class='form-check-input']"));
+	}
+	@Test
+	public void locatorsStartsWithXpath()
+	{
+		driver.findElement(By.xpath("//a[starts-with(text(),'Checkbox')]"));
+	    driver.findElement(By.xpath("//a[starts-with(@href,'select-input.php')]"));
+	    driver.findElement(By.xpath("//div[starts-with(@class,'copyright')]"));
+		driver.findElement(By.xpath("//img[starts-with(@src,'images/logo.png')]"));
+		driver.findElement(By.xpath("//a[starts-with(@id,'others')]"));
+    }
+	@Test
+	public void loactingParentXpath()
+	 {
+		 driver.findElement(By.xpath("//label[@for='inputEmail4']//parent::div[@class='form-group']"));
+		 driver.findElement(By.xpath("//a[@href='simple-form-demo.php']//parent::li[@class='nav-item']"));
+		 driver.findElement(By.xpath("//img[@alt='logo']//parent::a[@href='index.php']"));
+		 driver.findElement(By.xpath("//a[text()='Checkbox Demo']//parent::li"));
+		 driver.findElement(By.xpath("//div[@class='copyright']//parent::footer[@class='mt-5']"));
+	 }
+	@Test
+	public void loactingchildXpath()
+	 {
+		 driver.findElement(By.xpath("//div[@class='card']//child::div[contains(text(),'Menu')]"));
+		 driver.findElement(By.xpath("//div[@class='form-group']//child::label[@for='inputEmail4']"));
+		 driver.findElement(By.xpath("//div[@class='card']//child::div[contains(text(),'Two Input Fields')]"));
+		 driver.findElement(By.xpath("//div[@class='form-group']//child::label"));
+		 driver.findElement(By.xpath("//li[@class='list-group-item']//child::a[@href='select-input.php']"));
+	 }
+	@Test
+	public void locatingByAncestorXpath()
+	{
+		driver.findElement(By.xpath("//button[@id='button-one']//ancestor::form[@method='POST']"));
+		driver.findElement(By.xpath("//div[@class='row']//ancestor::section[@class='clearfix']"));
+		driver.navigate().to("https://selenium.obsqurazone.com/check-box-demo.php");
+		driver.findElement(By.xpath("//div[@class='row']//ancestor::div[@class='header-top']"));
+		driver.findElement(By.xpath("//div[@class='card-header']//ancestor::div[@class='container page']"));
+		
+	}
+	@Test
+	public void locatingByDescendantXpath()
+	{
+		driver.findElement(By.xpath("//form[@method='POST']//descendant::label[@for='inputEmail4']"));
+		driver.findElement(By.xpath("//section[@class='clearfix']//descendant::div[@class='row']"));
+		driver.findElement(By.xpath("//div[@class='header-top']//descendant::div[@class='container']"));
+		driver.findElement(By.xpath("//div[@class='form-group']//descendant::input[@id='single-input-field']"));
+		driver.findElement(By.xpath("//form[@method='POST']//descendant::div[@id='message-one']"));
+	}
+	@Test
+	public void locatorFollowingXpath()
+	{
+		driver.findElement(By.xpath("//button[@id='button-one']//following::div[@id='message-one']"));
+		driver.navigate().to("https://selenium.obsqurazone.com/check-box-demo.php");
+		driver.findElement(By.xpath("//div[@class='form-check']//following::div[@id='message-one']"));
+		driver.findElement(By.xpath("//div[@class='form-group']//following::div[@id='message-one']"));
+		driver.findElement(By.xpath("//div[@class='card']//following::div[@id='message-one']"));
+		driver.findElement(By.xpath("//input[@id='is_checked']//following::input[@id='check-box-one']"));
+		
+	}
+	@Test
+	public void locatorPrecedingXpath()
+	{
+		driver.findElement(By.xpath("//div[@class='form-group']//preceding::input[@id='single-input-field']"));
+		driver.findElement(By.xpath("//button[@id='button-one']//preceding::label[@for='inputEmail4']"));
+		driver.findElement(By.xpath("//form[@method='POST']//preceding::label[@for='inputEmail4']"));
+		driver.findElement(By.xpath("//div[@id='message-one']//preceding::button[@id='button-one']"));
+		driver.navigate().to("https://selenium.obsqurazone.com/check-box-demo.php");
+		driver.findElement(By.xpath("//div[@id='message-one']//preceding::div[@class='form-group']"));
+		driver.findElement(By.xpath("//div[@class='form-group']//preceding::div[@id='message-one']"));
+		driver.findElement(By.xpath("//div[@class='form-check']//preceding::input[@id='gridCheck']"));
+		
+		
+	}
+	@Test
+	public void locatorsSelfXpath()
+	{
+		driver.findElement(By.xpath("//button[@id='button-one']//self::button"));
+		driver.findElement(By.xpath("//div[@id='message-one']//self::div"));
+		driver.findElement(By.xpath("//div[@id='message-two']//self::div"));
+		driver.findElement(By.xpath("//button[@id='button-two']//self::button"));
+		driver.navigate().to("https://selenium.obsqurazone.com/check-box-demo.php");
+		driver.findElement(By.xpath("//input[@id='button-two']//self::input"));
+	}
+	@Test
+	public void locatorsFolowingSiblingXpath()
+	{
+		driver.findElement(By.xpath("//label[@for='inputEmail4']//following-sibling::input[@id='single-input-field']"));
+		driver.findElement(By.xpath("//label[text()='Enter value A']//following-sibling::input[@id='value-a']"));
+		driver.findElement(By.xpath("//label[text()='Enter value B']//following-sibling::input[@id='value-b']"));
+		driver.navigate().to("https://selenium.obsqurazone.com/check-box-demo.php");
+		driver.findElement(By.xpath("//input[@id='gridCheck']//following-sibling::label[@class='form-check-label']"));
+		driver.findElement(By.xpath("//input[@id='check-box-three']//following-sibling::label[@class='form-check-label']"));
+	}
+	
+	
+	
 }

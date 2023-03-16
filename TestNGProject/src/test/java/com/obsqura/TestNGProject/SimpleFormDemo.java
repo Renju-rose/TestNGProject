@@ -11,7 +11,7 @@ import org.openqa.selenium.Point;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
-public class DemoLocators extends Base{
+public class SimpleFormDemo extends Base{
 	@Test
 	public void menuTab()
 	{
@@ -20,6 +20,7 @@ public class DemoLocators extends Base{
 		WebElement singleInputFieldTextbox=driver.findElement(By.xpath("//input[@id='single-input-field']"));
 		singleInputFieldTextbox.sendKeys(inputMessage);
 		WebElement showMessageButton=driver.findElement(By.xpath("//button[@id='button-one']"));
+		showMessageButton.isEnabled();
 		showMessageButton.click();
 		WebElement yourMessage=driver.findElement(By.cssSelector("div[id=message-one]"));
 		String yourMessageText=yourMessage.getText();

@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="19" total="20" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-03-06T07:53:10 IST" name="Default suite" finished-at="2023-03-06T07:53:16 IST" duration-ms="5660">
+  <suite started-at="2023-03-16T18:17:30 IST" name="Default suite" finished-at="2023-03-16T18:17:35 IST" duration-ms="5091">
     <groups>
     </groups>
-    <test started-at="2023-03-06T07:53:10 IST" name="Default test" finished-at="2023-03-06T07:53:16 IST" duration-ms="5660">
-      <class name="com.obsqura.TestNGProject.SelectInput">
-        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:com.obsqura.TestNGProject.SelectInput@67c33749]" started-at="2023-03-06T07:53:10 IST" name="initializeBrowser" finished-at="2023-03-06T07:53:15 IST" duration-ms="4303" status="PASS">
+    <test started-at="2023-03-16T18:17:30 IST" name="Default test" finished-at="2023-03-16T18:17:35 IST" duration-ms="5091">
+      <class name="com.obsqura.TestNGProject.Locators">
+        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:com.obsqura.TestNGProject.Locators@7133da86]" started-at="2023-03-16T18:17:30 IST" name="initializeBrowser" finished-at="2023-03-16T18:17:34 IST" duration-ms="4042" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeBrowser -->
-        <test-method signature="selectInputDemo()[pri:0, instance:com.obsqura.TestNGProject.SelectInput@67c33749]" started-at="2023-03-06T07:53:15 IST" name="selectInputDemo" finished-at="2023-03-06T07:53:16 IST" duration-ms="1066" status="PASS">
+        <test-method signature="locatorPrecedingXpath()[pri:0, instance:com.obsqura.TestNGProject.Locators@7133da86]" started-at="2023-03-16T18:17:34 IST" name="locatorPrecedingXpath" finished-at="2023-03-16T18:17:35 IST" duration-ms="696" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- selectInputDemo -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.obsqura.TestNGProject.SelectInput@67c33749]" started-at="2023-03-06T07:53:16 IST" name="afterTest" finished-at="2023-03-06T07:53:16 IST" duration-ms="248" status="PASS">
+        </test-method> <!-- locatorPrecedingXpath -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.obsqura.TestNGProject.Locators@7133da86]" started-at="2023-03-16T18:17:35 IST" name="afterTest" finished-at="2023-03-16T18:17:35 IST" duration-ms="307" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-      </class> <!-- com.obsqura.TestNGProject.SelectInput -->
+      </class> <!-- com.obsqura.TestNGProject.Locators -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

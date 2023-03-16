@@ -15,7 +15,7 @@ public class SelectCategory extends Base {
 	@Test
 	public void listFindElements(String inputCategory)
 	{
-		
+		//String inputCategory="Simple Form Demo";
 		List<WebElement> inputFormCategories=driver.findElements(By.xpath("//li[@class='list-group-item']//a"));
 		//int size=inputFormCategories.size();
 		for(WebElement category:inputFormCategories)
